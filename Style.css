@@ -5,22 +5,24 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Heebo', sans-serif;
+    background-color: #111;
+    color: #fff;
 }
 
 a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 img{
     object-fit: cover;
     object-position: top;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+   
 }
 
 nav{
     padding: 20px 148px;
-    background-color: #fff;
+    background-color: #111;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,14 +36,14 @@ nav .logo{
 }
 
 nav .logo img{
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 }
 
 nav .logo a{
-    font-size: 15px;
-    color: #3e3e3e;
+    font-size: 20px;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -82,9 +84,9 @@ nav .nav-links a.selected{
 .main .info button,
 .content .post-list .post-item .buttons button{
     padding: 10px 30px;
-    background: #303f9f;
+    background: white;
     border: none;
-    color: #fff;
+    color: #111;
     font-size: 16px;
     border-radius: 12px;
     cursor: pointer;
@@ -104,7 +106,7 @@ nav .nav-links a.selected{
 
 .recent{
     padding: 60px 148px;
-    background-color: #dbedf2;
+    background-color: #111;
 }
 
 .recent .header{
@@ -131,7 +133,7 @@ nav .nav-links a.selected{
 }
 
 .recent .posts .post-item{
-    background-color: #fff;
+    background-color: #111;
     padding: 24px;
     width: 460px;
 }
